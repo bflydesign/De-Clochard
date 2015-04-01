@@ -1,0 +1,95 @@
+@import "reset.css";
+@import "navigation.css";
+@import "form.css";
+
+@font-face {
+    font-family: 'Garamond';
+    src: url('/fonts/gara.ttf');
+}
+body {
+    background: url('/img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Garamond', serif;
+    font-size: 16px;
+}
+p {
+    text-align: justify;
+}
+a, a:hover, a:focus, a:active {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover, a:focus, a:active {
+    color: #806F23;
+}
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.smallpadding {
+    padding-right: 0 !important;
+    margin: 0 !important;
+}
+.container-top {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img-nowrap img {
+    position: relative;
+    left: -150px;
+    max-width: 700px;
+}
+.site-title {
+    display: block;
+    width: 100%;
+    letter-spacing: 0.6px;
+    font-size: 3.7em;
+    margin: 20px 0;
+}
+.imgRow {
+    margin-top: 30px;
+}
+.img-caption {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 0.6em;
+    text-transform: uppercase;
+}
+.imgRow-link {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+}
+footer ul {
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
+}
+footer ul li {
+    float: left;
+    list-style: none;
+    font-size: 0.7em;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-right: 5px;
+}
+footer ul li:last-child {
+    margin-right: 0;
+    text-align: right;
+}
+footer a {
+    color: #ffffff;
+}

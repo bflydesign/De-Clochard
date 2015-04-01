@@ -1,0 +1,30 @@
+nav {
+    margin-top: 40px;
+}
+nav ul li {
+    float: left;
+    width: 20%;
+    list-style: none;
+    text-align: center;
+}
+nav ul li a {
+    display: inline-block;
+    font-size: 0.9em;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+nav ul li:first-child {
+    text-align: left;
+}
+nav ul li:last-child {
+    text-align: right;
+}
+nav ul li.toleft {
+    position: relative;
+    left: -15px;
+}
+nav ul li.toright {
+     position: relative;
+     left: 15px;
+ }

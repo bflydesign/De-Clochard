@@ -1,0 +1,31 @@
+/* -- box model reset -- */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* -- css reset -- */
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+/* -- clearfix hack -- */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix {
+    display: block;
+}
+html[xmlns] .clearfix {
+    display: block;
+}
+* html .clearfix {
+    height: 1%;
+}
