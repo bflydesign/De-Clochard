@@ -133,7 +133,7 @@ class MysqliDb
      */
     public static function giveNewDbConnection()
     {
-        return new MysqliDb();
+        return new MysqliDb("bflydesign.no-ip.org", "bflydesign", "Bfly81mysql", "ateliervq_be");
     }
 
     /**

@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" content="http://bflydesign.no-ip.org:9876/vq/css/paragraaflogo.png">
+    <meta property="og:image" content="http://images/fblogo.jpg">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="450">
     <meta property="og:image:height" content="440">
@@ -44,6 +44,9 @@
     <div class="row">
         <div class="col-lg-5 hidden-sm hidden-xs img-nowrap">
             <img src="/img/<?php print isset($image) ? $image : ''; ?>" alt="restaurant de clochard"/>
+            <div class="col-lg-12">
+                OPENINGSUREN
+            </div>
         </div>
         <div class="col-lg-7 col-sm-12">
             <div class="row">

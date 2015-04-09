@@ -52,11 +52,14 @@ a:hover, a:focus, a:active {
 .imgRow {
     margin-top: 30px;
 }
+.imgRow-img {
+    margin-bottom: 10px;
+}
 .img-caption {
     display: block;
     margin-top: 5px;
     text-align: center;
-    font-size: 0.6em;
+    font-size: 0.8em;
     text-transform: uppercase;
 }
 .imgRow-link {

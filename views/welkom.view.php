@@ -16,19 +16,19 @@
             Team De Clochard
         </p>
         <div class="row imgRow">
-            <div class="col-lg-6">
+            <div class="col-lg-6 imgRow-img">
                 <img src="/img/imgRow_1.jpg" alt="" width="100%"/>
                 <span class="img-caption">mogelijkheid tot privéfeesten</span>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 imgRow-img">
                 <img src="/img/imgRow_2.jpg" alt="" width="100%"/>
                 <span class="img-caption">grote private parking</span>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 imgRow-img">
                 <img src="/img/imgRow_3.jpg" alt="" width="100%"/>
                 <span class="img-caption">kind- en hondvriendelijk</span>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 imgRow-img">
                 <img src="/img/imgRow_4.jpg" alt="" width="100%"/>
                 <span class="img-caption">verwarmd terras voor rokers</span>
             </div>
