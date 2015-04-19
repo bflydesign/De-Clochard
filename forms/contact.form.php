@@ -7,9 +7,8 @@
     </div>
     <div class="field section-header">
         <div class="subheading">
-            Wij helpen u graag verder bij eventuele vragen over producten, bestellingen of andere zaken. Wij
-            proberen om uw mailtje zo snel en zo goed mogelijk te beantwoorden.
-            U kunt ook steeds mailen naar <a href="mailto:info@declochard.be">info@declochard.be</a>.
+            u wenst ons te contacteren ? dan kan dit via onderstaand invulformulier. We proberen u alvast zo spoedig mogelijk te contacteren.
+            Reservatie zijn niet mogelijk via email. U kunt ook steeds mailen naar <a href="mailto:info@declochard.be">info@declochard.be</a>.
         </div>
         <div class="subheading">Opgelet: reservaties via e-mail worden niet aanvaard.</div>
     </div>

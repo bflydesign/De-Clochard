@@ -4,17 +4,17 @@
 
         <h3>Welkom</h3>
 
-        <p>Ken je dat heerlijke gevoel na een geslaagde avond bij vrienden? Zo'n perfecte avond waarop de
-            sfeer, het gezelschap, het eten, de wijn, ...
-            echt alles klopte? Als dat gevoel blijft nazinderen bij de gasten van Restaurant De Clochard,
-            hebben wij ons werk goed gedaan.
-            en je dat heerlijke gevoel na een geslaagde avond bij vrienden? Zo'n perfecte avond waarop de
-            sfeer, het gezelschap, het eten, de wijn, ...
-            echt alles klopte? Als dat gevoel blijft nazinderen bij de gasten van Restaurant De Clochard,
-            hebben wij ons werk goed gedaan.
-            <br/><br/>
-            Team De Clochard
-        </p>
+        <ul class="infolist">
+            <li>Weg uit de drukte</li>
+            <li>Dichtbij de zee, dichtbij golf oostduinkerke</li>
+            <li>Open eerlijke keuken</li>
+            <li>Grote private parking</li>
+            <li>Sterk geolied team met meer dan 20 jaar ervaring</li>
+            <li>Zonnig zomers terras (waar roken toegestaan is)</li>
+            <li>Ruimte voor de kinderen voorzien</li>
+            <li>Mogelijkheid tut huren voor privéfeesten</li>
+        </ul>
+
         <div class="row imgRow">
             <div class="col-lg-6">
                 <img src="/img/imgRow_1.jpg" alt="" width="100%"/>

@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="/components/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 </head>
 <body>
+<?php include_once('lib/analyticstracking.php'); ?>
 
 <script>
     window.fbAsyncInit = function () {

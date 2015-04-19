@@ -32,6 +32,9 @@ a:hover, a:focus, a:active {
     padding: 0 !important;
     margin: 0 !important;
 }
+.infolist {
+    margin-left: 30px;
+}
 .smallpadding {
     padding-right: 0 !important;
     margin: 0 !important;
