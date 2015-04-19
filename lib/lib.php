@@ -17,14 +17,9 @@ function isNullOrEmpty($field)
 // -- get img from directory
 function getImages($dir)
 {
-    $dir = 'upload/img/sidebar/' . $dir . '/';
+    $dir =  $dir . '/';
     if (file_exists($dir)) {
         $files = glob($dir . '*.{jpg,png,gif}', GLOB_BRACE);
-    }
-
-    // -- get default image if directory is empty
-    if (empty($files)) {
-        $files[] = 'img/meat.jpg';
     }
     return $files;
 }

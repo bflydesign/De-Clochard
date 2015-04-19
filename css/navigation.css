@@ -27,4 +27,7 @@ nav ul li.toleft {
 nav ul li.toright {
      position: relative;
      left: 15px;
- }
+}
+nav ul li a.active {
+    color: #806F23;
+}

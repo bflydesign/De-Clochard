@@ -4,17 +4,18 @@
 
         <h3>Welkom</h3>
 
-        <p>Ken je dat heerlijke gevoel na een geslaagde avond bij vrienden? Zo'n perfecte avond waarop de
-            sfeer, het gezelschap, het eten, de wijn, ...
-            echt alles klopte? Als dat gevoel blijft nazinderen bij de gasten van Restaurant De Clochard,
-            hebben wij ons werk goed gedaan.
-            en je dat heerlijke gevoel na een geslaagde avond bij vrienden? Zo'n perfecte avond waarop de
-            sfeer, het gezelschap, het eten, de wijn, ...
-            echt alles klopte? Als dat gevoel blijft nazinderen bij de gasten van Restaurant De Clochard,
-            hebben wij ons werk goed gedaan.
+        <p>
+            Welkom op de website van restaurant De Clochard.
+            Even weg uit de drukte ? U wil genieten van een eerlijke keuken in een gezellig kader ?
+            Dan is restaurant De Clochard " een echte aanrader. Met een uitgebreide kaart en telkens
+            enkele vooropgestelde suggesties willen we u keer op keer verwennen! We hopen u binnenkort te kunnen
+            ontvangen!
             <br/><br/>
-            Team De Clochard
+            Tot dan,
+            <br/>
+            Eddy, Cedric en Olivier
         </p>
+
         <div class="row imgRow">
             <div class="col-lg-6 imgRow-img">
                 <img src="/img/imgRow_1.jpg" alt="" width="100%"/>

@@ -27,5 +27,12 @@ $config = array(
         'page_error' => 'De paginagegevens konden niet worden opgeslagan, gelieve opnieuw te proberen.',
         'news_success' => 'Het nieuwsbericht werd opgeslagen.',
         'news_error' => 'Het nieuwsbericht kon niet worden opgeslagen, gelieve opnieuw te proberen.'
-    )
+    ),
+
+    // -- emailadres
+    'email' => 'info@declochard.be',
+
+    // -- site
+    'site' => 'http://www.declochard.be',
+    'site-short' => 'www.declochard.be'
 );

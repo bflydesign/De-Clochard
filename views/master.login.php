@@ -41,7 +41,7 @@
                                 <div class="center-block">
                                     <a href="/welkom">
                                         <img class="profile-img"
-                                             src="../img/paragraaflogo.png" alt="">
+                                             src="../img/logo.png" alt="">
                                     </a>
                                 </div>
                             </div>

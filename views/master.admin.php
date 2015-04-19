@@ -40,7 +40,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/welkom">Atelier VQ</a>
+            <a class="navbar-brand" href="/welkom">Restaurant De Clochard</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -54,25 +54,6 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
-            <ul class="nav nav-sidebar">
-                <li class="active"><a href="#">Paginabeheer</a></li>
-                <li><a href="/page/edit?p=welkom">Welkom</a></li>
-                <li><a href="/page/edit?p=over-ons">Over ons</a></li>
-                <li><a href="/page/edit?p=chef-aan-huis">Chef-aan-huis</a></li>
-                <li><a href="/page/edit?p=links">Links</a></li>
-                <li><a href="/page/edit?p=news">News (introtekst)</a></li>
-                <li><a href="/page/edit?p=contact">Contact</a></li>
-            </ul>
-            <ul class="nav nav-sidebar">
-                <li class="active"><a href="#">Winkel</a></li>
-                <?php foreach (Page::getSubPages(3) as $subPage) { ?>
-                    <li>
-                        <a href="/page/edit?p=<?php print !isNullOrEmpty($subPage->getSlug()) ? $subPage->getSlug() : ''; ?>">
-                            <?php print !isNullOrEmpty($subPage->getTitle()) ? $subPage->getTitle() : ''; ?>
-                        </a>
-                    </li>
-                <?php } ?>
-            </ul>
             <ul class="nav nav-sidebar">
                 <li class="active"><a href="#">Nieuwsbeheer</a></li>
                 <li><a href="/news/add">Toevoegen</a></li>

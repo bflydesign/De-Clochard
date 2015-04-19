@@ -25,6 +25,9 @@ a, a:hover, a:focus, a:active {
 a:hover, a:focus, a:active {
     color: #806F23;
 }
+.font-medium {
+    font-size: 1.2em;
+}
 .nopadding {
     padding: 0 !important;
     margin: 0 !important;
@@ -49,11 +52,17 @@ a:hover, a:focus, a:active {
     font-size: 3.7em;
     margin: 20px 0;
 }
+.top-buffer {
+    margin-top:20px;
+}
 .imgRow {
     margin-top: 30px;
 }
 .imgRow-img {
     margin-bottom: 10px;
+}
+.imgRow-img img {
+    max-width: 100%;
 }
 .img-caption {
     display: block;
@@ -66,6 +75,17 @@ a:hover, a:focus, a:active {
     margin-top: 30px;
     font-weight: bold;
     font-size: 0.8em;
+}
+#openingsuren p {
+    line-height: 0.60em;
+}
+#gallery {
+    margin-top: 40px;
+    padding: 0;
+}
+#gallery img {
+    max-width: 100%;
+    padding-bottom: 30px;
 }
 footer {
     position: fixed;
@@ -95,4 +115,30 @@ footer ul li:last-child {
 }
 footer a {
     color: #ffffff;
+}
+article.newsitem span.title {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+article.newsitem span.share {
+    float: right;
+}
+article.newsitem span.share a {
+    margin-right: 5px;
+    cursor: pointer;
+}
+article.newsitem div.created {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #806F23;
+}
+article.newsitem span.message {
+    display: block;
+    margin-top: 10px;
+}
+article.newsitem span.modified {
+    display: block;
+    text-align: right;
+    font-size: 0.8em;
+    font-style: italic;
 }

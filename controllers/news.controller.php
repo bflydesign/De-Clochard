@@ -1,16 +1,13 @@
 <?php
-if ($url == 'news')
+if ($url == 'nieuws')
 {
     // -- get pagevariables
-    $page = new Page($url);
-    $title = $page->getTitle();
+    $title = 'Nieuws';
     $style = 'master';
+    $image = 'img_contact.png';
 
     // -- get newsdata
     $newsList = News::getNews(true);
-
-    // -- get img
-    $images = getImages($url);
 
     // -- views
     $view = 'news.view.php';
@@ -47,18 +44,6 @@ if ($url == 'news')
 
         // -- views
         $view = 'editnews.view.php';
-        $master = 'admin';
-    } else {
-        header('location: /dashboard');
-    }
-} else if ($url == 'page/edit')
-{
-    if (Authentication::login_check() == true)
-    {
-        $page = new Page('news');
-        $title = 'dashboard';
-        $style = 'admin';
-        $view = 'editpage.view.php';
         $master = 'admin';
     } else {
         header('location: /dashboard');

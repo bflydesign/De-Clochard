@@ -12,11 +12,11 @@
     <input type="hidden" id="id" name="id" value="<?php print (isset($news) && !isNullOrEmpty($news->getId())) ? $news->getId() : ''; ?>"/>
     <div class="form-group">
         <label for="title">Publiceer van :</label>
-        <input type="text" class="input-group" id="publishFrom" name="publishFrom" readonly="readonly" value="<?php print (isset($news) && !isNullOrEmpty($news->getPublishFrom())) ? $news->getPublishFrom()->format('d-m-Y') : ''; ?>"/>
+        <input type="text" class="input-group" id="publishFrom" name="publishFrom" readonly="readonly" value="<?php print (isset($news) && !empty($news->getPublishFrom())) ? $news->getPublishFrom()->format('d-m-Y') : ''; ?>"/>
     </div>
     <div class="form-group">
         <label for="title">Publiceer tot :</label>
-        <input type="text" class="input-group" id="publishTo" name="publishTo" readonly="readonly" value="<?php print (isset($news) && !isNullOrEmpty($news->getPublishTo())) ? $news->getPublishTo()->format('d-m-Y') : ''; ?>"/>
+        <input type="text" class="input-group" id="publishTo" name="publishTo" readonly="readonly" value="<?php print (isset($news) && !empty($news->getPublishTo())) ? $news->getPublishTo()->format('d-m-Y') : ''; ?>"/>
     </div>
     <div class="form-group">
         <label for="title">Titel *</label>

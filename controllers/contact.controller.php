@@ -103,8 +103,7 @@ EOT;
 }
 
 // -- get pagevariables
-$page = new Page($url);
-$title = $page->getTitle();
+$title = 'Contacteer ons';
 $style = 'master';
 $image = 'img_contact.png';
 

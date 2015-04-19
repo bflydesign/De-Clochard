@@ -18,7 +18,6 @@ require 'models/authentication.class.php';
 require 'models/passwordRequest.class.php';
 require 'models/loginAttempts.class.php';
 require 'models/user.class.php';
-require 'models/page.class.php';
 require 'models/news.class.php';
 
 // -- router
@@ -28,7 +27,7 @@ include 'router/router.php';
 $url = isset($_GET['url']) ? $_GET['url'] : 'welkom';
 
 if(!array_key_exists($url, $router)) {
-    header('location: /home');
+    header('location: /welkom');
     exit;
 }
 

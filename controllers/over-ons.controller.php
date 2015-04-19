@@ -1,6 +1,5 @@
 <?php
-$page = new Page('welkom');
-$title = $page->getTitle();
+$title = 'Over ons';
 $style = 'master';
 $image = 'img_overons.png';
 

@@ -92,8 +92,8 @@ class News {
         $this->dateModified = $dateModified;
     }
     /**
-    * @return mixed
-    */
+     * @return mixed
+     */
     public function getPublishFrom()
     {
         return $this->publishFrom;
@@ -188,8 +188,8 @@ class News {
                 'Content' => $this->content,
                 'DateCreated' => $this->dateCreated->format('Y-m-d H:i:s'),
                 'DateModified' => $this->dateModified->format('Y-m-d H:i:s'),
-                'PublishFrom' => (!isNullOrEmpty($this->publishFrom)) ? $this->publishFrom->format('Y-m-d H:i:s') : null,
-                'PublishTo' => (!isNullOrEmpty($this->publishTo)) ? $this->publishTo->format('Y-m-d H:i:s') : null,
+                'PublishFrom' => (!empty($this->publishFrom)) ? $this->publishFrom->format('Y-m-d') : null,
+                'PublishTo' => (!empty($this->publishTo)) ? $this->publishTo->format('Y-m-d') : null,
                 'Publish' => $this->publish
             );
 
@@ -258,17 +258,21 @@ class News {
     public static function getNews($publish = true, $fromTo = false, $orderby = 'DESC', $limit = null)
     {
         $db = MysqliDb::giveNewDbConnection();
-        $sql = 'SELECT *, IFNULL(PublishFrom, now()-1), IFNULL(PublishTo, now() + 1) FROM tblNews WHERE 1 = 1';
-        $now = new DateTime();
+        $sql = 'SELECT * FROM tblNews WHERE 1 = 1';
+
         if ($publish == true) {
             $sql .= ' AND Publish = 1';
         }
         if ($fromTo == true) {
-            $sql .= ' AND PublishFrom <= ' . $now->format('Y-m-d H:i:s') . ' AND PublishTo >= ' . $now->format('Y-m-d H:i:s');
+            $now = new DateTime();
+            $sql .= ' AND IFNULL(PublishFrom, CURDATE() - INTERVAL 1 DAY) <= "' . $now->format('Y-m-d') . '" AND IFNULL(PublishTo, CURDATE() + INTERVAL 1 DAY) >= "' . $now->format('Y-m-d').'"';
         }
         $sql .= ' ORDER BY DateCreated ' . $orderby;
-        $db->rawQuery($sql);
-        $result = $db->get('tblNews', $limit);
+        if ($limit <> null) {
+            $sql .= ' LIMIT ' . $limit;
+        }
+
+        $result = $db->rawQuery($sql, null, false);
 
         if ($db->count > 0) {
             $items = array();
