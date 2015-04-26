@@ -1,3 +1,4 @@
+<main>
 <div class="row">
     <div class="col-lg-offset-2">
         <p><span class="site-title">Restaurant De Clochard</span></p>
@@ -42,4 +43,4 @@
         </div>
     </div>
 </div>
-</div>
+</main>

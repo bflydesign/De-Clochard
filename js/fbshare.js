@@ -20,7 +20,7 @@ $(document).ready(function () {
         });
     });
 
-    $('a.sharebutton-page').click(function (e) {
+    $('div.fb-share-button').click(function (e) {
         e.preventDefault();
 
         var link = 'http://www.declochard.be';

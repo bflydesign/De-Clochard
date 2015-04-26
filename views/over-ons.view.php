@@ -1,3 +1,4 @@
+<main>
 <div class="row">
     <div class="col-lg-offset-2">
         <span class="site-title">Restaurant De Clochard</span>
@@ -13,6 +14,7 @@
             <li>Zonnig zomers terras (waar roken toegestaan is)</li>
             <li>Ruimte voor de kinderen voorzien</li>
             <li>Mogelijkheid tut huren voor privéfeesten</li>
+            <li>Kindvriendelijke ruimte aanwezig in onze zaak</li>
         </ul>
 
         <div class="row imgRow">
@@ -38,3 +40,4 @@
         </div>
     </div>
 </div>
+</main>

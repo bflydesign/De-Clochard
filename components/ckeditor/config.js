@@ -14,6 +14,9 @@ CKEDITOR.editorConfig = function( config ) {
     config.filebrowserImageUploadUrl = '../components/kcfinder/upload.php?opener=ckeditor&type=img';
     config.filebrowserFlashUploadUrl = '../components/kcfinder/upload.php?opener=ckeditor&type=flash';
 
+    // -- removes all style and html when pasting text
+    config.forcePasteAsPlainText = true;
+
 	// Define changes to default configuration here.
 	// For complete reference see:
 	// http://docs.ckeditor.com/#!/api/CKEDITOR.config

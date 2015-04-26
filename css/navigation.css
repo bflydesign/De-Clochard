@@ -31,3 +31,6 @@ nav ul li.toright {
 nav ul li a.active {
     color: #806F23;
 }
+nav a#pull {
+    display: none;
+}

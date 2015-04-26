@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "navigation.css";
 @import "form.css";
+@import "mediaquery.css";
 
 @font-face {
     font-family: 'Garamond';
@@ -28,9 +29,9 @@ a:hover, a:focus, a:active {
 .font-medium {
     font-size: 1.2em;
 }
-.nopadding {
-    padding: 0 !important;
-    margin: 0 !important;
+div.nopadding {
+    padding: 0;
+    margin: 0;
 }
 .infolist {
     margin-left: 30px;
@@ -98,6 +99,10 @@ footer {
     height: 40px;
     background-color: #000000;
 }
+footer div.centered-footer ul {
+    display: block;
+    float: right;
+}
 footer ul {
     position: relative;
     top: 10px;
@@ -114,10 +119,12 @@ footer ul li {
 }
 footer ul li:last-child {
     margin-right: 0;
-    text-align: right;
 }
 footer a {
     color: #ffffff;
+}
+footer address {
+    margin: 0;
 }
 article.newsitem span.title {
     font-size: 1.3em;

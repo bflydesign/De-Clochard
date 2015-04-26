@@ -3,14 +3,16 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" content="http://images/fblogo.jpg">
+    <meta property="og:image" content="http://www.bflydesign.be/img/fbshare.jpg">
     <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="450">
-    <meta property="og:image:height" content="440">
+    <meta property="og:image:width" content="960">
+    <meta property="og:image:height" content="640">
+
+    <meta name="robots" content="nofollow">
     <?php if (isset($title)) { ?>
         <title><?php print $title; ?> | Restaurant De Clochard</title>
     <?php } ?>
-    <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
+    <link rel="icon" type="image/png" href="/img/favicon.png"/>
     <link href="/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="/css/font-awesome.min.css" rel="stylesheet"/>
     <?php if (isset($stylesheet)) { ?>
@@ -22,8 +24,7 @@
     <link rel="stylesheet" href="/components/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 </head>
 <body>
-<?php include_once('lib/analyticstracking.php'); ?>
-
+<div id="fb-root"></div>
 <script>
     window.fbAsyncInit = function () {
         FB.init({
@@ -45,9 +46,14 @@
     }(document, 'script', 'facebook-jssdk'));
 </script>
 
+<?php include_once('lib/analyticstracking.php'); ?>
+
 <div class="container container-top">
     <div class="row">
         <div class="col-lg-5 hidden-sm hidden-xs img-nowrap">
+            <div class="col-lg-12" id="share">
+                <div class="fb-share-button" data-href="https://www.declochard.be" data-layout="button"></div>
+            </div>
             <img src="/img/<?php print isset($image) ? $image : ''; ?>" alt="restaurant de clochard"/>
             <div class="col-lg-12" id="openingsuren">
                 <h3>OPENINGSUREN</h3>
@@ -83,7 +89,7 @@
         </div>
         <div class="col-lg-7 col-sm-12">
             <div class="row">
-                <div class="col-lg-2 col-md-2">
+                <div class="col-lg-2 col-md-2 hidden-xs">
                     <img src="/img/logo.png" alt="restaurant de clochard" width="70px"/>
                 </div>
                 <div class="col-lg-10 col-md-10 nopadding">
@@ -93,27 +99,8 @@
             <?php include isset($view) ? $view : ''; ?>
         </div>
     </div>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5"></div>
-                <div class="col-lg-7 nopadding">
-                    <ul>
-                        <li><a href="/welkom">restaurant de clochard</a></li>
-                        <li>|</li>
-                        <li><address>houtsaegerlaan 44 - 8670 koksijde</address></li>
-                        <li>|</li>
-                        <li>tel 058/51.38.47</li>
-                        <li>|</li>
-                        <li><a href="mailto:info@declochard.be">info@declochard.be</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include_once('views/footer.view.php'); ?>
 </div>
-
-<div id="fb-root"></div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>

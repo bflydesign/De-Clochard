@@ -156,7 +156,7 @@ class User {
         $this->email = $row['Email'];
     }
 
-    public static function byUserName($username) {
+    public static function selectByUserName($username) {
         $db = MysqliDb::giveNewDbConnection();
         $db->where('UserName', $username);
         $result = $db->getOne('tblUser', 'ID');

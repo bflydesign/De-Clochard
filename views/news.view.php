@@ -1,3 +1,4 @@
+<main>
 <div class="row">
     <div class="col-lg-offset-2">
         <span class="site-title">Restaurant De Clochard</span>
@@ -29,6 +30,9 @@
 
                 <hr class="redline"/>
             <?php } //endforeach
-        } //endif ?>
+        } else { ?>
+            <h2>Er zijn nog geen nieuwsberichten</h2>
+        <?php } //endif ?>
     </div>
 </div>
+</main>

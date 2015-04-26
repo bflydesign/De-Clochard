@@ -15,8 +15,7 @@
 
     <?php if (!empty($error)) { ?>
         <div class="alert alert-danger">
-            <strong>Er heeft zich een fout voorgedaan bij het versturen van het formulier. Gelieve opnieuw te
-                proberen.</strong><br/>
+            <strong>Er heeft zich een fout voorgedaan bij het versturen van het formulier. Gelieve opnieuw te proberen.</strong><br/>
             <?php foreach ($error as $e) { ?>
                 * <?php print $e; ?>
             <?php } ?>

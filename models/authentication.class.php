@@ -3,7 +3,7 @@ class Authentication
 {
     public static function login($username, $password)
     {
-        $user = User::byUserName($username);
+        $user = User::selectByUserName($username);
 
         if (!is_null($user)) {
             $userID = $user->getId();
@@ -209,7 +209,7 @@ class Authentication
 
     public static function checkCredentialsByLogin($login, $password_form)
     {
-        $user = User::byUserName($login);
+        $user = User::selectByUserName($login);
         if (!is_null($user)) {
             $password_db = $user->getPassword();
             $salt = $user->getSalt();

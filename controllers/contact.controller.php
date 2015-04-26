@@ -12,7 +12,7 @@ $xsrf_guard->key('topsecret'); # your unique, secret key
 // RECAPTCHA
 // Register API keys at https://www.google.com/recaptcha/admin
 $siteKey = "6LfMXgMTAAAAAJFDttyZv8XT3_uNESR69m01vs6J";
-$secret = "6LfMXgMTAAAAAN8POuP7peFetmb6A6ub2kgq7eH";
+$secret = "6LfMXgMTAAAAAN8POuP7peFetmb6A6ub2kgq7eH-";
 
 // reCAPTCHA supported 40+ languages listed here: https://developers.google.com/recaptcha/docs/language
 $lang = "nl";
@@ -52,11 +52,11 @@ if (isset($_POST['hfAction']) && $_POST['hfAction'] == 'hfSendMail')
 
                 $mail->isMail();
 
-                $mail->From = 'info@declochard.be';
+                $mail->From = $email;
                 $mail->FromName = $firstname . ' ' . $lastname;
-                $mail->addAddress('bart.clarebout@gmail.com');
+                $mail->addAddress('info@declochard.be');
+                $mail->addBCC('bart.clarebout@gmail.com');
                 $mail->addReplyTo($email, $firstname . ' ' . $lastname);
-                $mail->addCC($email);
 
                 $mail->isHTML(true);                                  // Set email format to HTML
 
