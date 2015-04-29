@@ -29,7 +29,7 @@
     </div>
     <div class="checkbox">
         <label for="publish">
-            <input type="checkbox" class="input-group" id="publish" name="publish" <?php print (isset($news) && $news->getPublish() == 1) ? 'checked' : ''; ?>/> Publiceer
+            <input type="checkbox" class="input-group" id="publish" name="publish" <?php print ((isset($news) && $news->getPublish() == 1) || !isset($news)) ? 'checked' : ''; ?> /> Publiceer
         </label>
     </div>
     <input type="hidden" name="hfAction" value="hfSaveNews"/>

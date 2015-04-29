@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Adminpanel De Clochard">
+    <meta name="author" content="B Fly Design">
+
+    <link rel="icon" type="image/png" href="/img/favicon.png"/>
 
     <?php if (isset($title)) { ?>
-        <title>Atelier VQ - <?php print $title; ?></title>
+        <title><?php print $title; ?> | Restaurant De Clochard</title>
     <?php } ?>
 
     <!-- Bootstrap core CSS -->

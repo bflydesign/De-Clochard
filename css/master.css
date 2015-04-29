@@ -87,6 +87,9 @@ div.nopadding {
     margin-top: 40px;
     padding: 0;
 }
+#gallery div {
+    height: inherit;
+}
 #gallery img {
     max-width: 100%;
     padding-bottom: 30px;
@@ -151,4 +154,7 @@ article.newsitem span.modified {
     text-align: right;
     font-size: 0.8em;
     font-style: italic;
+}
+article.newsitem span.message img {
+    max-width: 100%;
 }

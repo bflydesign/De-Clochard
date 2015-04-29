@@ -8,23 +8,23 @@
         <p>
             Welkom op de website van restaurant De Clochard.
             Even weg uit de drukte ? U wil genieten van een eerlijke open keuken in een gezellig kader ?
-            Dan is restaurant De Clochard " een echte aanrader. Met een uitgebreide kaart en telkens
+            Dan is restaurant De Clochard een echte aanrader. Met een uitgebreide kaart en telkens
             enkele vooropgestelde suggesties willen we u keer op keer verwennen! We hopen u binnenkort te kunnen
             ontvangen!
             <br/><br/>
             Tot dan,
             <br/>
-            Eddy, Cedric en Olivier
+            Eddy, Olivier en Cedric
         </p>
 
         <div class="row imgRow">
             <div class="col-lg-6 imgRow-img">
                 <img src="/img/imgRow_1.jpg" alt="" width="100%"/>
-                <span class="img-caption">verwarmd terras voor rokers</span>
+                <span class="img-caption">verwarmd terras</span>
             </div>
             <div class="col-lg-6 imgRow-img">
                 <img src="/img/imgRow_4.jpg" alt="" width="100%"/>
-                <span class="img-caption">mogelijkheid tot privéfeesten</span>
+                <span class="img-caption">mogelijkheid tot banketten</span>
             </div>
             <div class="col-lg-6 imgRow-img">
                 <img src="/img/imgRow_2.jpg" alt="" width="100%"/>
