@@ -8,6 +8,9 @@
     <meta property="og:image:width" content="960">
     <meta property="og:image:height" content="640">
 
+    <meta name="description" content="lekker eten in een gezellig kader in restaurant De Clochard in Koksijde">
+    <meta name="keywords" content="restaurant, koksijde, oostduinkerke, clochard, culinair, menu, eten, diner, nachtrestaurant, gezellig, parking, banketten, kinderen, terras, kust ">
+    <meta name="author" content="pepaslife creations">
     <meta name="robots" content="nofollow">
     <?php if (isset($title)) { ?>
         <title><?php print $title; ?> | Restaurant De Clochard</title>
