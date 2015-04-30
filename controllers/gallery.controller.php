@@ -6,7 +6,7 @@ $image = 'img_contact.png';
 $view = 'gallery.view.php';
 $master = 'master';
 
-$images = getImages('upload/files');
+$images = getImages('upload/img/galerij/');
 
 $total = count($images);
 $images_per_page = 12;

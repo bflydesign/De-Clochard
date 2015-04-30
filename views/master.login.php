@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Atelier VQ - <?php print isset($title) ? $title : 'Dashboard'; ?></title>
+    <title><?php print isset($title) ? $title : 'Dashboard'; ?> | Dashboard</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">

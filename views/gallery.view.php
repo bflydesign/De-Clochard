@@ -17,24 +17,24 @@
         <div class="row" id="gallery">
             <div class="hidden">
                 <?php for ($i = 0; $i < $start; $i++) { ?>
-                    <a class="fancybox" rel="group" href="<?php print '/upload/files/'.basename($images[$i]); ?>">
-                        <img src="<?php print '/upload/.thumbs/files/'.basename($images[$i]); ?>" alt="Restaurant De Clochard"/>
+                    <a class="fancybox" rel="group" href="<?php print '/upload/img/galerij/'.basename($images[$i]); ?>">
+                        <img src="<?php print '/upload/.thumbs/img/galerij/'.basename($images[$i]); ?>" alt="Restaurant De Clochard"/>
                     </a>
                 <?php } ?>
             </div>
 
             <?php for ($i = $start; $i < $end; $i++) { ?>
                 <div class="col-lg-4 col-md-4 col-xs-6">
-                    <a class="fancybox" rel="group" href="<?php print '/upload/files/'.basename($images[$i]); ?>">
-                        <img src="<?php print '/upload/.thumbs/files/'.basename($images[$i]); ?>" alt="Restaurant De Clochard"/>
+                    <a class="fancybox" rel="group" href="<?php print '/upload/img/galerij/'.basename($images[$i]); ?>">
+                        <img src="<?php print '/upload/.thumbs/img/galerij/'.basename($images[$i]); ?>" alt="Restaurant De Clochard"/>
                     </a>
                 </div>
             <?php } ?>
 
             <div class="hidden">
                 <?php for ($i = $end; $i < count($images); $i++) { ?>
-                    <a class="fancybox" rel="group" href="<?php print '/upload/files/'.basename($images[$i]); ?>">
-                        <img src="<?php print '/upload/.thumbs/files/'.basename($images[$i]); ?>" alt="Restaurant De Clochard"/>
+                    <a class="fancybox" rel="group" href="<?php print '/upload/img/galerij/'.basename($images[$i]); ?>">
+                        <img src="<?php print '/upload/.thumbs/img/galerij/'.basename($images[$i]); ?>" alt="Restaurant De Clochard"/>
                     </a>
                 <?php } ?>
             </div>

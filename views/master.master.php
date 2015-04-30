@@ -3,15 +3,17 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" content="http://www.bflydesign.be/img/fbshare.jpg">
+    <meta property="og:image" content="http://www.declochard.be/img/fbshare.jpg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="960">
     <meta property="og:image:height" content="640">
 
-    <meta name="description" content="lekker eten in een gezellig kader in restaurant De Clochard in Koksijde">
+    <meta name="description" content="Lekker eten in een gezellig kader in restaurant De Clochard in Koksijde">
     <meta name="keywords" content="restaurant, koksijde, oostduinkerke, clochard, culinair, menu, eten, diner, nachtrestaurant, gezellig, parking, banketten, kinderen, terras, kust ">
     <meta name="author" content="pepaslife creations">
-    <meta name="robots" content="nofollow">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="1 month">
+
     <?php if (isset($title)) { ?>
         <title><?php print $title; ?> | Restaurant De Clochard</title>
     <?php } ?>
@@ -50,8 +52,6 @@
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 </script>
-
-<?php include_once('lib/analyticstracking.php'); ?>
 
 <div class="container container-top">
     <div class="row">

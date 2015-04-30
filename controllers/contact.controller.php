@@ -55,7 +55,6 @@ if (isset($_POST['hfAction']) && $_POST['hfAction'] == 'hfSendMail')
                 $mail->From = $email;
                 $mail->FromName = $firstname . ' ' . $lastname;
                 $mail->addAddress('info@declochard.be');
-                $mail->addBCC('bart.clarebout@gmail.com');
                 $mail->addReplyTo($email, $firstname . ' ' . $lastname);
 
                 $mail->isHTML(true);                                  // Set email format to HTML
