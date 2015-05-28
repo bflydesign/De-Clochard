@@ -10,7 +10,8 @@
         font-size: 2em !important;
     }
     nav {
-        position: relative;
+        position: fixed;
+        width: 100%;
         top: 0;
         margin-top: 0;
         border-bottom: 0;
@@ -22,7 +23,7 @@
     nav ul li {
         display: block;
         padding: 5px 0;
-        background: rgba(255, 255, 255, 0.5);
+        background: rgb(255, 255, 255);
         float: none !important;
         width: 100%;
         border-left: none !important;
@@ -79,5 +80,9 @@
     }
     main {
         margin-bottom: 90px;
+    }
+    #openingsuren {
+        margin-top: 60px;
+        font-size: 0.8em;
     }
 }

@@ -63,42 +63,44 @@
 
 <div class="container container-top">
     <div class="row">
-        <div class="col-lg-5 hidden-sm hidden-xs img-nowrap">
-            <div class="col-lg-12" id="share">
-                <div class="fb-share-button" data-layout="button"></div>
-            </div>
-            <img src="/img/<?php print isset($image) ? $image : ''; ?>" alt="restaurant de clochard"/>
-            <div class="col-lg-12" id="openingsuren">
-                <h3>OPENINGSUREN</h3>
-                <div class="row top-buffer">
-                    <div class="col-lg-1 fa fa-clock-o fa-lg"></div>
-                    <div class="col-lg-11 font-medium">
-                        <p>Keuken open van 18 tot 24u</p>
-                        <p>Op zon- en feestdagen ook 's middags open</p>
+        <div class="col-lg-5 img-nowrap">
+            <row>
+                <div class="col-lg-12 hidden-sm hidden-xs" id="share">
+                    <div class="fb-share-button" data-layout="button"></div>
+                    <img src="/img/<?php print isset($image) ? $image : ''; ?>" alt="restaurant de clochard"/>
+                </div>
+                <div class="col-lg-12" id="openingsuren">
+                    <h3>OPENINGSUREN</h3>
+                    <div class="row top-buffer">
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 fa fa-clock-o fa-lg"></div>
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 font-medium">
+                            <p>Keuken open van 18 tot 24u</p>
+                            <p>Op zon- en feestdagen ook 's middags open</p>
+                        </div>
+                    </div>
+                    <div class="row top-buffer">
+                        <div class="col-lg-1 col-lg-1 col-md-1 col-sm-1 col-xs-1 fa fa-close fa-lg"></div>
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 font-medium">
+                            <p>Gesloten op maandag en dinsdag</p>
+                            <p>In de vakanties enkel gesloten op maandag</p>
+                        </div>
+                    </div>
+                    <div class="row top-buffer">
+                        <div class="col-lg-1 col-lg-1 col-md-1 col-sm-1 col-xs-1 fa fa-phone fa-lg"></div>
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 font-medium">
+                            <p>058/51.38.47</p>
+                        </div>
+                    </div>
+                    <div class="row top-buffer">
+                        <div class="col-lg-1 col-lg-1 col-md-1 col-sm-1 col-xs-1 fa fa-home fa-lg"></div>
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 font-medium">
+                            <address>
+                                <p>Houtsaegerlaan 44 - 8670 Koksijde</p>
+                            </address>
+                        </div>
                     </div>
                 </div>
-                <div class="row top-buffer">
-                    <div class="col-lg-1 fa fa-close fa-lg"></div>
-                    <div class="col-lg-11 font-medium">
-                        <p>Gesloten op maandag en dinsdag</p>
-                        <p>In de vakanties enkel gesloten op maandag</p>
-                    </div>
-                </div>
-                <div class="row top-buffer">
-                    <div class="col-lg-1 fa fa-phone fa-lg"></div>
-                    <div class="col-lg-11 font-medium">
-                        <p>058/51.38.47</p>
-                    </div>
-                </div>
-                <div class="row top-buffer">
-                    <div class="col-lg-1 fa fa-home fa-lg"></div>
-                    <div class="col-lg-11 font-medium">
-                        <address>
-                            <p>Houtsaegerlaan 44 - 8670 Koksijde</p>
-                        </address>
-                    </div>
-                </div>
-            </div>
+            </row>
         </div>
         <div class="col-lg-7 col-sm-12">
             <div class="row">
