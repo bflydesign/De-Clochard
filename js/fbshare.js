@@ -23,17 +23,9 @@ $(document).ready(function () {
     $('div.fb-share-button').click(function (e) {
         e.preventDefault();
 
-        var link = 'http://www.declochard.be';
-        var caption = $('#pagename').text();
-        var description = 'Genieten van een eerlijke keuken in gezellig kader bij restaurant De Clochard';
-
         FB.ui({
-            method: 'feed',
-            name: 'Restaurant De Clochard',
-            link: link,
-            picture: 'http://www.declochard.be/img/logo.png',
-            caption: caption,
-            description: description
-        });
+            method: 'share',
+            href: 'https://developers.facebook.com/docs/'
+        }, function(response){});
     });
 });

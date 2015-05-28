@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" content="http://www.declochard.be/img/fbshare.jpg">
+
+    <meta property="og:url" content="http://www.declochard.be/<?php print $url; ?>">
+    <meta property="og:site_name" content="Restaurant De Clochard - Koksijde">
+    <meta property="og:title" content="Lekker eten in een gezellig kader in restaurant De Clochard in Koksijde">
+    <meta property="og:description" content="Wie graag lekker wil tafelen in een gezellig kader is op zijn plaats in restaurant De Clochard in Koksijde. U kan er terecht met vrienden, familie, kinderen en dat zowel binnen als op het verwarmd terras.">
+    <meta property="fb:app_id" content="677772202335119" />
+    <meta property="og:image" content="http://www.declochard.be/img/imgFbShare.jpg">
     <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="960">
-    <meta property="og:image:height" content="640">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
 
     <meta name="description" content="Lekker eten in een gezellig kader in restaurant De Clochard in Koksijde">
     <meta name="keywords" content="restaurant, koksijde, oostduinkerke, clochard, culinair, menu, eten, diner, nachtrestaurant, gezellig, parking, banketten, kinderen, terras, kust ">
@@ -29,6 +36,7 @@
     <link rel="stylesheet" href="/components/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 
     <?php include_once 'lib/analyticstracking.php'; ?>
+
 </head>
 <body>
 <div id="fb-root"></div>
@@ -57,7 +65,7 @@
     <div class="row">
         <div class="col-lg-5 hidden-sm hidden-xs img-nowrap">
             <div class="col-lg-12" id="share">
-                <div class="fb-share-button" data-href="https://www.declochard.be" data-layout="button"></div>
+                <div class="fb-share-button" data-layout="button"></div>
             </div>
             <img src="/img/<?php print isset($image) ? $image : ''; ?>" alt="restaurant de clochard"/>
             <div class="col-lg-12" id="openingsuren">
